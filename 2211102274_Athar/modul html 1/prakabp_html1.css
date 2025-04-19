@@ -1,0 +1,40 @@
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    background-color: rgba(187, 0, 255, 0.282); /*backgouncd jadi lightgray*/
+}
+p {
+    color: rgb(0, 255, 221);
+    font-size: 18px; /*Ukuran font*/
+    font-family: Arial, sans-serif;/*Jenis font*/
+    text-align: center;/*Pengaturan teks menjadi tengahh*/
+}
+h1 {
+    color: rgb(0, 187, 255); /*warna tulisan jadi biru*/
+}
+div {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 20px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+.grid-item {
+    background: lightblue;
+    padding: 20px;
+    text-align: center;
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.flex-item {
+    background: lightcoral;
+    padding: 20px;
+    text-align: center;
+}
